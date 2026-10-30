@@ -3,7 +3,7 @@ package Logica;
 public abstract class Clase_Carta {
     private String nombre;
 
-    public void Carta (String nombre) {
+    protected Clase_Carta (String nombre) {
         this.nombre = nombre;
     }
 
